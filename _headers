@@ -1,2 +1,7 @@
 /*
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.highperformanceformat.com; frame-src https://www.highperformanceformat.com;
+  Content-Security-Policy: default-src 'self';
+      script-src 'self' 'unsafe-inline' https://www.highperformanceformat.com;
+      style-src 'self' 'unsafe-inline' https://www.highperformanceformat.com;
+      connect-src *;
+      frame-src *;
+      img-src * data:;
